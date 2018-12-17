@@ -1,0 +1,11 @@
+{
+  "body": "{\"title\":\"Lenovo T480\",\"content\":\"Lenovo T480 Intel core i5 8th gen\",\"bbquantity\":\"10\", \"ssquantity\":\"12\", \"attachment\":\"lenovo.jpg\" }",
+  "pathParameters": {
+    "id": "ac2fb5e0-ff4e-11e8-ad75-972cf98c9813"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "CSD100008"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+Pool Id:
+	 us-east-2_OuE5GKvFq
+Pool ARN:
+	 arn:aws:cognito-idp:us-east-2:244446132417:userpool/us-east-2_OuE5GKvFq
+
+Identity pool name: 
+	MarketUnity identity pool
+
+Identity pool ID :
+	us-east-2:e808ea35-2235-486c-a282-4de79da83f8b
+
+
+App Name:
+marketunity-app
+
+App client id:
+62emokta45rbff9bffpf2t8bs5
+
+
+https://marketunity-app.auth.us-east-2.amazoncognito.com
+
+"UserSub": "42483fa6-4503-44f1-ab34-7978a6388db0"
+
+upc:
+ac2fb5e0-ff4e-11e8-ad75-972cf98c9813
+
+***************************************************************************************************
+Service Information
+service: marketunity-app-api
+stage: dev
+region: us-east-2
+stack: marketunity-app-api-dev
+api keys:
+  None
+endpoints:
+  POST - https://jd7lsrmzi1.execute-api.us-east-2.amazonaws.com/dev/productes
+  GET - https://jd7lsrmzi1.execute-api.us-east-2.amazonaws.com/dev/productes/{id}
+  GET - https://jd7lsrmzi1.execute-api.us-east-2.amazonaws.com/dev/productes
+  PUT - https://jd7lsrmzi1.execute-api.us-east-2.amazonaws.com/dev/productes/{id}
+  DELETE - https://jd7lsrmzi1.execute-api.us-east-2.amazonaws.com/dev/productes/{id}
+functions:
+  create: marketunity-app-api-dev-create
+  get: marketunity-app-api-dev-get
+  list: marketunity-app-api-dev-list
+  update: marketunity-app-api-dev-update
+  delete: marketunity-app-api-dev-delete
+layers:
+  None
