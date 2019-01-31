@@ -1,4 +1,4 @@
-Pool Id:
+User Pool Id:
 	 us-east-2_OuE5GKvFq
 Pool ARN:
 	 arn:aws:cognito-idp:us-east-2:244446132417:userpool/us-east-2_OuE5GKvFq
@@ -27,22 +27,26 @@ ac2fb5e0-ff4e-11e8-ad75-972cf98c9813
 ***************************************************************************************************
 Service Information
 service: marketunity-app-api
-stage: dev
+stage: prod
 region: us-east-2
-stack: marketunity-app-api-dev
+stack: marketunity-app-api-prod
 api keys:
   None
 endpoints:
-  POST - https://jd7lsrmzi1.execute-api.us-east-2.amazonaws.com/dev/productes
-  GET - https://jd7lsrmzi1.execute-api.us-east-2.amazonaws.com/dev/productes/{id}
-  GET - https://jd7lsrmzi1.execute-api.us-east-2.amazonaws.com/dev/productes
-  PUT - https://jd7lsrmzi1.execute-api.us-east-2.amazonaws.com/dev/productes/{id}
-  DELETE - https://jd7lsrmzi1.execute-api.us-east-2.amazonaws.com/dev/productes/{id}
+  POST - https://e27o7cidtl.execute-api.us-east-2.amazonaws.com/prod/productes
+  GET - https://e27o7cidtl.execute-api.us-east-2.amazonaws.com/prod/productes/{id}
+  GET - https://e27o7cidtl.execute-api.us-east-2.amazonaws.com/prod/productes
+  PUT - https://e27o7cidtl.execute-api.us-east-2.amazonaws.com/prod/productes/{id}
+  DELETE - https://e27o7cidtl.execute-api.us-east-2.amazonaws.com/prod/productes/{id}
 functions:
-  create: marketunity-app-api-dev-create
-  get: marketunity-app-api-dev-get
-  list: marketunity-app-api-dev-list
-  update: marketunity-app-api-dev-update
-  delete: marketunity-app-api-dev-delete
+  create: marketunity-app-api-prod-create
+  get: marketunity-app-api-prod-get
+  list: marketunity-app-api-prod-list
+  update: marketunity-app-api-prod-update
+  delete: marketunity-app-api-prod-delete
 layers:
   None
+*******************************************************************
+
+Authenticated role
+Cognito_MarketUnityidentitypoolAuth_Role 
